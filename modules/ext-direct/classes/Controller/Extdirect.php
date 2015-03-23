@@ -127,7 +127,7 @@ class Controller_Extdirect extends Controller {
 
         $api = [];
         foreach ($classes as $class) {
-            $classFile = Kohana::find_file('classes/controller', $class);
+            $classFile = Kohana::find_file('classes/Controller', $class);
             include_once($classFile);
             $reflClass = new ReflectionClass('Controller_' . $class);
             $methods = $reflClass->getMethods();
@@ -194,7 +194,7 @@ class Controller_Extdirect extends Controller {
                 'method' => $request->method
             );
 
-            $controllerFile = Kohana::find_file('classes/controller', strtolower(str_replace('Controller_', '', $request->action)));
+            $controllerFile = Kohana::find_file('classes/Controller', str_replace('Controller_', '', $request->action));
             include_once ($controllerFile);
 
             if (isset($method['len'])) {
@@ -267,7 +267,11 @@ class Controller_Extdirect extends Controller {
         header('Content-Type: text/javascript');
         // try {
         $jsCode = [
-            "url" => 'http://127.0.0.1/backend/ext-direct/router',
+        /**
+        * TODO BIG nope, URL::?
+        *
+        */
+            "url" => 'http://steveetm.hu/backend/ext-direct/router',
             "type" => "remoting",
             "timeout" => 500,
             "actions" => $this->convertApi($this->getApi())
