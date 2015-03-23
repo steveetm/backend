@@ -4,7 +4,7 @@ return array
 (
 	'default' => array
 	(
-		'type'       => 'PDO',
+		'type'       => 'MySQL',
 		'connection' => array(
 			/**
 			 * The following options are available for MySQL:
@@ -18,10 +18,11 @@ return array
 			 *
 			 * Ports and sockets may be appended to the hostname.
 			 */
-                    'dsn'=>'mysql:dbname=kohana;host=127.0.0.1',
-			'username'   => 'kohana',
-			'password'   => 'kohana',
-			'persistent' => FALSE
+			'hostname'   => 'localhost',
+			'database'   => 'kohana',
+			'username'   => FALSE,
+			'password'   => FALSE,
+			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
 		'charset'      => 'utf8',

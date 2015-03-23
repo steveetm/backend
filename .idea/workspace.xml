@@ -2,68 +2,666 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0566ee-d419-4bb6-a166-b675c9eb0e58" name="Default" comment="- Ext.Direct getConfig caching mechanism added.&#10;- Cache module was excluded from repository, fixed.&#10;- Cache module  activated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/ApcTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Arithmetic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Arithmetic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/HTTP/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/HTTP/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/CacheArithmeticMethods.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/CacheBasicMethodsTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/CacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/request/client/CacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/FileTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/GarbageCollect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/GarbageCollect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/MemcacheTag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/MemcacheTag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/MemcacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/SqliteTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Tagging.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Tagging.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Wincache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Wincache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/WincacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache.usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/cachedrivers.php.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/config.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/koharness.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/MySQLi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/MySQLi/Result.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\.idea\deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\composer.phar" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\blank.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\classtrees_default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\default\Controller_Welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\default\_bootstrap.php.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\default\_classes---Controller---Welcome.php.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\default\_logs---2015---03---21.php.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\default\_logs---2015---03---22.php.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\elementindex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\elementindex_default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\errors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\li_default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\media\banner.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\media\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\docs\packages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\modules\database\classes\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\modules\database\classes\classes\Database\MySQLi.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\modules\database\classes\classes\Database\MySQLi\Result.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\modules\database\classes\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\nbproject\private\private.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\nbproject\private\private.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\nbproject\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\backend\nbproject\project.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/de-de/about.conventions.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/de-de/about.conventions.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/de-de/about.kohana.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/de-de/about.kohana.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/default/Controller_Welcome.html" afterPath="$PROJECT_DIR$/docs/default/Controller_Welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ext-direct/classes/Controller/Extdirect.php" afterPath="$PROJECT_DIR$/modules/ext-direct/classes/Controller/Extdirect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/default/_bootstrap.php.html" afterPath="$PROJECT_DIR$/docs/default/_bootstrap.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/default/_classes---Controller---Welcome.php.html" afterPath="$PROJECT_DIR$/docs/default/_classes---Controller---Welcome.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/default/_logs---2015---03---21.php.html" afterPath="$PROJECT_DIR$/docs/default/_logs---2015---03---21.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/default/_logs---2015---03---22.php.html" afterPath="$PROJECT_DIR$/docs/default/_logs---2015---03---22.php.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/300.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/300.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/300.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/300.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/301.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/301.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/301.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/301.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/302.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/302.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/302.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/302.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/303.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/303.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/303.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/303.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/304.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/304.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/304.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/304.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/305.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/305.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/305.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/305.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/307.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/307.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/307.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/307.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/400.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/400.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/400.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/400.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/401.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/401.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/401.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/401.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/402.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/402.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/402.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/402.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/403.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/403.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/403.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/403.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/404.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/404.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/405.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/405.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/405.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/405.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/406.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/406.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/406.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/406.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/407.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/407.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/407.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/407.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/408.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/408.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/408.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/408.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/409.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/409.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/409.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/409.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/410.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/410.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/410.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/410.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/411.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/411.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/411.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/411.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/412.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/412.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/412.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/412.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/413.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/413.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/413.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/413.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/414.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/414.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/414.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/414.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/415.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/415.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/415.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/415.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/416.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/416.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/416.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/416.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/417.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/417.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/417.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/417.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/500.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/500.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/500.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/500.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/501.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/501.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/501.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/501.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/502.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/502.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/502.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/502.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/503.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/503.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/503.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/503.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/504.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/504.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/504.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/504.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/505.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/505.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/505.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/505.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Apc.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Apc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Apc.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Apc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/ApcTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/ApcTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Arithmetic.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Arithmetic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Arithmetic.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Arithmetic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Arr.php" afterPath="$PROJECT_DIR$/system/classes/Arr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Arr.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Arr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/ArrCallback.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ArrCallback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ArrTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ArrTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/classes/Auth.php" afterPath="$PROJECT_DIR$/modules/auth/classes/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/classes/Kohana/Auth.php" afterPath="$PROJECT_DIR$/modules/auth/classes/Kohana/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/AutoLinkEmails.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/AutoLinkEmails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/CLI.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/CLI.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Minion/CLI.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/CLI.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/HTTP/Cache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/HTTP/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/HTTP/Cache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/HTTP/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/CacheArithmeticMethods.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/CacheArithmeticMethods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/CacheBasicMethodsTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/CacheBasicMethodsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/CacheTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/CacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/request/client/CacheTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/request/client/CacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Result/Cached.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Result/Cached.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Result/Cached.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Result/Cached.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Class.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Class.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/request/ClientTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/request/ClientTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Codebench.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Codebench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Controller/Codebench.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Controller/Codebench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Kohana/Codebench.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Kohana/Codebench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Config.php" afterPath="$PROJECT_DIR$/system/classes/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ConfigTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ConfigTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Controller.php" afterPath="$PROJECT_DIR$/system/classes/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Controller.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/tests/userguide/ControllerTest.php" afterPath="$PROJECT_DIR$/modules/userguide/tests/userguide/ControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Cookie.php" afterPath="$PROJECT_DIR$/system/classes/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Cookie.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Session/Cookie.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Session/Cookie.php" afterPath="$PROJECT_DIR$/system/classes/Session/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/CookieTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/CookieTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Core.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/CoreTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/CoreTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Curl.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Curl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client/Curl.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Curl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/DB.php" afterPath="$PROJECT_DIR$/modules/database/classes/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/DB.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Model/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Model/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Session/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Session/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Model/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Model/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Session/Database.php" afterPath="$PROJECT_DIR$/modules/database/classes/Session/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Date.php" afterPath="$PROJECT_DIR$/system/classes/Date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Date.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/DateSpan.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/DateSpan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/DateTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/DateTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Debug.php" afterPath="$PROJECT_DIR$/system/classes/Debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Debug.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/DebugTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/DebugTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Delete.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Delete.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Encrypt.php" afterPath="$PROJECT_DIR$/system/classes/Encrypt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Encrypt.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Encrypt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/EncryptTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/EncryptTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Exception.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Exception.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Exception.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Exception.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Exception.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Minion/Exception.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Kohana/ORM/Validation/Exception.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Kohana/ORM/Validation/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/ORM/Validation/Exception.php" afterPath="$PROJECT_DIR$/modules/orm/classes/ORM/Validation/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Kohana/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Kohana/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Recursion/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Recursion/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Session/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/UTF8/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/UTF8/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Validation/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Validation/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/View/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/View/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Request/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client/Recursion/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Recursion/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Session/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Session/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/UTF8/Exception.php" afterPath="$PROJECT_DIR$/system/classes/UTF8/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Validation/Exception.php" afterPath="$PROJECT_DIR$/system/classes/Validation/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/View/Exception.php" afterPath="$PROJECT_DIR$/system/classes/View/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ExceptionTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/Expected.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/Expected.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/Expected.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/Expected.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/ExplodeLimit.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ExplodeLimit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Expression.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Expression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Expression.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Expression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/External.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/External.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client/External.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client/External.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/request/client/ExternalTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/request/client/ExternalTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Feed.php" afterPath="$PROJECT_DIR$/system/classes/Feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Feed.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/FeedTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/FeedTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/classes/Auth/File.php" afterPath="$PROJECT_DIR$/modules/auth/classes/Auth/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/classes/Kohana/Auth/File.php" afterPath="$PROJECT_DIR$/modules/auth/classes/Kohana/Auth/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/File.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/File.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/File.php" afterPath="$PROJECT_DIR$/system/classes/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Config/File.php" afterPath="$PROJECT_DIR$/system/classes/Config/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/File.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config/File.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Log/File.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Log/File.php" afterPath="$PROJECT_DIR$/system/classes/Log/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/FileTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/FileTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/FileTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/FileTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Form.php" afterPath="$PROJECT_DIR$/system/classes/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Form.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/FormTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/FormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Fragment.php" afterPath="$PROJECT_DIR$/system/classes/Fragment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Fragment.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Fragment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/classes/Image/GD.php" afterPath="$PROJECT_DIR$/modules/image/classes/Image/GD.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/classes/Kohana/Image/GD.php" afterPath="$PROJECT_DIR$/modules/image/classes/Kohana/Image/GD.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/GarbageCollect.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/GarbageCollect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/GarbageCollect.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/GarbageCollect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Config/Group.php" afterPath="$PROJECT_DIR$/system/classes/Config/Group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config/Group.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/Config/GroupTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/Config/GroupTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/GruberURL.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/GruberURL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTML.php" afterPath="$PROJECT_DIR$/system/classes/HTML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTML.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/HTMLTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/HTMLTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP.php" afterPath="$PROJECT_DIR$/system/classes/HTTP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/HTTP.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/HTTP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client/HTTP.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client/HTTP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/HTTPTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/HTTPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Header.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Header.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/Http/HeaderTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/Http/HeaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Task/Help.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Task/Help.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Helpers.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Helpers.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/I18n.php" afterPath="$PROJECT_DIR$/system/classes/I18n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/I18n.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/I18n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/I18nTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/I18nTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/classes/Image.php" afterPath="$PROJECT_DIR$/modules/image/classes/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/classes/Kohana/Image.php" afterPath="$PROJECT_DIR$/modules/image/classes/Kohana/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/tests/kohana/ImageTest.php" afterPath="$PROJECT_DIR$/modules/image/tests/kohana/ImageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/classes/Image/Imagick.php" afterPath="$PROJECT_DIR$/modules/image/classes/Image/Imagick.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/classes/Kohana/Image/Imagick.php" afterPath="$PROJECT_DIR$/modules/image/classes/Kohana/Image/Imagick.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Inflector.php" afterPath="$PROJECT_DIR$/system/classes/Inflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Inflector.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Inflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/InflectorTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/InflectorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Insert.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Insert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Insert.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Insert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Internal.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Internal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client/Internal.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Internal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/request/client/InternalTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/request/client/InternalTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Exception/InvalidTask.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Exception/InvalidTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Minion/Exception/InvalidTask.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/Exception/InvalidTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Join.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Join.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Join.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Join.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/tests/KodocTest.php" afterPath="$PROJECT_DIR$/modules/userguide/tests/KodocTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana.php" afterPath="$PROJECT_DIR$/system/classes/Kohana.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/vendor/markdown/License.text" afterPath="$PROJECT_DIR$/modules/userguide/vendor/markdown/License.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Log.php" afterPath="$PROJECT_DIR$/system/classes/Log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Log.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/LogTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/LogTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/LtrimDigits.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/LtrimDigits.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoBaseURL.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoBaseURL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoImageURL.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoImageURL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoIncludeViews.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoIncludeViews.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Markdown.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Markdown.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Markdown.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Markdown.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Memcache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Memcache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Memcache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Memcache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/MemcacheTag.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/MemcacheTag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/MemcacheTag.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/MemcacheTag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/MemcacheTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/MemcacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Message.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Message.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Method.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Method.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Method.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Method.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Missing.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Missing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Missing.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Missing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Model.php" afterPath="$PROJECT_DIR$/system/classes/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Model.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ModelTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ModelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/MySQL.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/MySQL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/MySQL.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/MySQL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Session/Native.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session/Native.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Session/Native.php" afterPath="$PROJECT_DIR$/system/classes/Session/Native.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Num.php" afterPath="$PROJECT_DIR$/system/classes/Num.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Num.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Num.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/NumTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/NumTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/ORM.php" afterPath="$PROJECT_DIR$/modules/orm/classes/ORM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Auth/ORM.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Auth/ORM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Kohana/ORM.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Kohana/ORM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Kohana/Auth/ORM.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Kohana/Auth/ORM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/PDO.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/PDO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/PDO.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/PDO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Method/Param.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Method/Param.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Method/Param.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Method/Param.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Profiler.php" afterPath="$PROJECT_DIR$/system/classes/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Profiler.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Property.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Property.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Property.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Property.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/README.markdown" afterPath="$PROJECT_DIR$/modules/image/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/README.markdown" afterPath="$PROJECT_DIR$/modules/unittest/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/README.md" afterPath="$PROJECT_DIR$/modules/auth/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/README.md" afterPath="$PROJECT_DIR$/modules/cache/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/README.md" afterPath="$PROJECT_DIR$/modules/database/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/README.md" afterPath="$PROJECT_DIR$/modules/minion/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/README.md" afterPath="$PROJECT_DIR$/modules/orm/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/README.md" afterPath="$PROJECT_DIR$/modules/userguide/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/README.md" afterPath="$PROJECT_DIR$/system/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Config/Database/Reader.php" afterPath="$PROJECT_DIR$/modules/database/classes/Config/Database/Reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database/Reader.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database/Reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config/Reader.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config/File/Reader.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/File/Reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/Config/File/ReaderTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/Config/File/ReaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Exception/Redirect.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/Redirect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/Redirect.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/Redirect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request.php" afterPath="$PROJECT_DIR$/system/classes/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Request.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Request.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/RequestTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/RequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Response.php" afterPath="$PROJECT_DIR$/system/classes/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/HTTP/Response.php" afterPath="$PROJECT_DIR$/system/classes/HTTP/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Response.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Response.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ResponseTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ResponseTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Result.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/MySQL/Result.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/MySQL/Result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Result.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/MySQL/Result.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/MySQL/Result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Model/Role.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Role.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/Role.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/Role.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Route.php" afterPath="$PROJECT_DIR$/system/classes/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Route.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/RouteTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/RouteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Security.php" afterPath="$PROJECT_DIR$/system/classes/Security.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Security.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Security.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/SecurityTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/SecurityTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Select.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Select.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Session.php" afterPath="$PROJECT_DIR$/system/classes/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Session.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/SessionTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/SessionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config/Source.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Source.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Sqlite.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Sqlite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Sqlite.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Sqlite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/SqliteTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/SqliteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Log/StdErr.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/StdErr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Log/StdErr.php" afterPath="$PROJECT_DIR$/system/classes/Log/StdErr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Log/StdOut.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/StdOut.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Log/StdOut.php" afterPath="$PROJECT_DIR$/system/classes/Log/StdOut.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Stream.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Request/Client/Stream.php" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/StripNullBytes.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/StripNullBytes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Log/Syslog.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/Syslog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Log/Syslog.php" afterPath="$PROJECT_DIR$/system/classes/Log/Syslog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Tagging.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Tagging.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Tagging.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Tagging.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Task.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Task.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/classes/Minion/Task.php" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/Task.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/tests/minion/TaskTest.php" afterPath="$PROJECT_DIR$/modules/minion/tests/minion/TaskTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Controller/Template.php" afterPath="$PROJECT_DIR$/system/classes/Controller/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Controller/Template.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Controller/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/TestCase.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Database/TestCase.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Database/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Unittest/TestCase.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Database/TestCase.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Database/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/TestSuite.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/TestSuite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Unittest/TestSuite.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/TestSuite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Tests.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Tests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Tests.php" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Tests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Text.php" afterPath="$PROJECT_DIR$/system/classes/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Text.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/TextTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/TextTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/User/Token.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/User/Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Model/User/Token.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/User/Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/Transliterate.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/Transliterate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/URL.php" afterPath="$PROJECT_DIR$/system/classes/URL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/URL.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/URL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/URLSite.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/URLSite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/URLTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/URLTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/UTF8.php" afterPath="$PROJECT_DIR$/system/classes/UTF8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/UTF8.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/UTF8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/UTF8Test.php" afterPath="$PROJECT_DIR$/system/tests/kohana/UTF8Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Update.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Update.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Upload.php" afterPath="$PROJECT_DIR$/system/classes/Upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Upload.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/UploadTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/UploadTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Model/User.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/User.php" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/UserFuncArray.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/UserFuncArray.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Controller/Userguide.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Controller/Userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Controller/Userguide.php" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Controller/Userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Valid.php" afterPath="$PROJECT_DIR$/system/classes/Valid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Valid.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Valid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/ValidColor.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ValidColor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ValidTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ValidTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/classes/Bench/ValidURL.php" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ValidURL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Validation.php" afterPath="$PROJECT_DIR$/system/classes/Validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Validation.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ValidationTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ValidationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/View.php" afterPath="$PROJECT_DIR$/system/classes/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/View.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/kohana/ViewTest.php" afterPath="$PROJECT_DIR$/system/tests/kohana/ViewTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Where.php" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Where.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Where.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Where.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Cache/Wincache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Wincache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Wincache.php" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Wincache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/cache/WincacheTest.php" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/WincacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Config/Database/Writer.php" afterPath="$PROJECT_DIR$/modules/database/classes/Config/Database/Writer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database/Writer.php" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database/Writer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Config/Writer.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Writer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Kohana/Log/Writer.php" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/Writer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/classes/Log/Writer.php" afterPath="$PROJECT_DIR$/system/classes/Log/Writer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/test_data/feeds/activity.atom" afterPath="$PROJECT_DIR$/system/tests/test_data/feeds/activity.atom" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/adding.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/adding.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/api.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/api.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/auth-schema-mysql.sql" afterPath="$PROJECT_DIR$/modules/orm/auth-schema-mysql.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/auth-schema-postgresql.sql" afterPath="$PROJECT_DIR$/modules/orm/auth-schema-postgresql.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/config/auth.php" afterPath="$PROJECT_DIR$/modules/auth/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/autoloading.md" afterPath="$PROJECT_DIR$/system/guide/kohana/autoloading.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/classtrees_default.html" afterPath="$PROJECT_DIR$/docs/classtrees_default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/elementindex.html" afterPath="$PROJECT_DIR$/docs/elementindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/elementindex_default.html" afterPath="$PROJECT_DIR$/docs/elementindex_default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/errors.html" afterPath="$PROJECT_DIR$/docs/errors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/bootstrap.md" afterPath="$PROJECT_DIR$/system/guide/kohana/bootstrap.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/bootstrap.php" afterPath="$PROJECT_DIR$/modules/unittest/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/bootstrap_all_modules.php" afterPath="$PROJECT_DIR$/modules/unittest/bootstrap_all_modules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/query/builder.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/query/builder.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/guide/cache.usage.md" afterPath="$PROJECT_DIR$/modules/cache/guide/cache.usage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/cachedrivers.php.ini" afterPath="$PROJECT_DIR$/modules/cache/cachedrivers.php.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/test_data/callback_routes.php" afterPath="$PROJECT_DIR$/system/tests/test_data/callback_routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/api/class.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/files/classes.md" afterPath="$PROJECT_DIR$/system/guide/kohana/files/classes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tutorials/clean-urls.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/clean-urls.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/config/codebench.php" afterPath="$PROJECT_DIR$/modules/codebench/config/codebench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/views/codebench.php" afterPath="$PROJECT_DIR$/modules/codebench/views/codebench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/composer.json" afterPath="$PROJECT_DIR$/modules/auth/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/composer.json" afterPath="$PROJECT_DIR$/modules/cache/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/composer.json" afterPath="$PROJECT_DIR$/modules/codebench/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/composer.json" afterPath="$PROJECT_DIR$/modules/database/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/composer.json" afterPath="$PROJECT_DIR$/modules/image/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/composer.json" afterPath="$PROJECT_DIR$/modules/minion/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/composer.json" afterPath="$PROJECT_DIR$/modules/orm/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/composer.json" afterPath="$PROJECT_DIR$/modules/unittest/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/composer.json" afterPath="$PROJECT_DIR$/modules/userguide/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/composer.json" afterPath="$PROJECT_DIR$/system/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/guide/auth/config.md" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/guide/cache/config.md" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/config.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/config.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/config.md" afterPath="$PROJECT_DIR$/system/guide/kohana/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/files/config.md" afterPath="$PROJECT_DIR$/system/guide/kohana/files/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/contributing.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/contributing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/mvc/controllers.md" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc/controllers.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/conventions.md" afterPath="$PROJECT_DIR$/system/guide/kohana/conventions.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/cookies.md" afterPath="$PROJECT_DIR$/system/guide/kohana/cookies.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/security/cookies.md" afterPath="$PROJECT_DIR$/system/guide/kohana/security/cookies.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/credit_cards.php" afterPath="$PROJECT_DIR$/system/config/credit_cards.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/examples/crop.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples/crop.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/curl.php" afterPath="$PROJECT_DIR$/system/config/curl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/security/database.md" afterPath="$PROJECT_DIR$/system/guide/kohana/security/database.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/config/database.php" afterPath="$PROJECT_DIR$/modules/database/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/debugging.md" afterPath="$PROJECT_DIR$/system/guide/kohana/debugging.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/security/deploying.md" afterPath="$PROJECT_DIR$/system/guide/kohana/security/deploying.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/guide/auth/driver/develop.md" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/driver/develop.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/developers.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/developers.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/examples/dynamic.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples/dynamic.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/i18n/en.php" afterPath="$PROJECT_DIR$/system/i18n/en.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/encrypt.php" afterPath="$PROJECT_DIR$/system/config/encrypt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/security/encryption.md" afterPath="$PROJECT_DIR$/system/guide/kohana/security/encryption.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tutorials/error-pages.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/error-pages.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/views/minion/help/error.php" afterPath="$PROJECT_DIR$/modules/minion/views/minion/help/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/error.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/examples/error.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/examples/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/views/kohana/error.php" afterPath="$PROJECT_DIR$/system/views/kohana/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/messages/tests/validation/error_type_check.php" afterPath="$PROJECT_DIR$/system/messages/tests/validation/error_type_check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/errors.md" afterPath="$PROJECT_DIR$/system/guide/kohana/errors.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/i18n/es.php" afterPath="$PROJECT_DIR$/system/i18n/es.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/example.phpunit.xml" afterPath="$PROJECT_DIR$/modules/unittest/example.phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/test_data/feeds/example.rss20" afterPath="$PROJECT_DIR$/system/tests/test_data/feeds/example.rss20" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/examples.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/examples.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/examples.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/examples.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/examples.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/extension.md" afterPath="$PROJECT_DIR$/system/guide/kohana/extension.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/guide/auth/driver/file.md" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/driver/file.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/files.md" afterPath="$PROJECT_DIR$/system/guide/kohana/files.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/filters.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/filters.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/flow.md" afterPath="$PROJECT_DIR$/system/guide/kohana/flow.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/i18n/fr.php" afterPath="$PROJECT_DIR$/system/i18n/fr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/fragments.md" afterPath="$PROJECT_DIR$/system/guide/kohana/fragments.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/from_unicode.php" afterPath="$PROJECT_DIR$/system/utf8/from_unicode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/views/kohana/generate_logo.php" afterPath="$PROJECT_DIR$/system/views/kohana/generate_logo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tutorials/git.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/git.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tutorials/hello-world.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/hello-world.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/examples/hello_world_error.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/examples/hello_world_error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/helpers.md" afterPath="$PROJECT_DIR$/system/guide/kohana/helpers.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/files/i18n.md" afterPath="$PROJECT_DIR$/system/guide/kohana/files/i18n.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/config/image.php" afterPath="$PROJECT_DIR$/modules/image/config/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/guide/auth/index.md" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/guide/cache/index.md" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/guide/codebench/index.md" afterPath="$PROJECT_DIR$/modules/codebench/guide/codebench/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/index.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/index.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/guide/minion/index.md" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/index.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/guide/unittest/index.md" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/index.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/index.md" afterPath="$PROJECT_DIR$/system/guide/kohana/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/index.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/inflector.php" afterPath="$PROJECT_DIR$/system/config/inflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/init.php" afterPath="$PROJECT_DIR$/modules/codebench/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/init.php" afterPath="$PROJECT_DIR$/modules/userguide/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/install.md" afterPath="$PROJECT_DIR$/system/guide/kohana/install.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/js/jquery.min.js" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/kodoc.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/kodoc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/js/kodoc.js" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/kodoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/test_data/message_tests/bottom_module/messages/kohana_core_message_tests.php" afterPath="$PROJECT_DIR$/system/tests/test_data/message_tests/bottom_module/messages/kohana_core_message_tests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/tests/test_data/message_tests/top_module/messages/kohana_core_message_tests.php" afterPath="$PROJECT_DIR$/system/tests/test_data/message_tests/top_module/messages/kohana_core_message_tests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/koharness.php" afterPath="$PROJECT_DIR$/modules/auth/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/koharness.php" afterPath="$PROJECT_DIR$/modules/cache/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/koharness.php" afterPath="$PROJECT_DIR$/modules/codebench/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/koharness.php" afterPath="$PROJECT_DIR$/modules/database/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/koharness.php" afterPath="$PROJECT_DIR$/modules/image/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/koharness.php" afterPath="$PROJECT_DIR$/modules/minion/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/koharness.php" afterPath="$PROJECT_DIR$/modules/orm/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/koharness.php" afterPath="$PROJECT_DIR$/modules/unittest/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/koharness.php" afterPath="$PROJECT_DIR$/modules/userguide/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/koharness.php" afterPath="$PROJECT_DIR$/system/koharness.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tutorials/library-kohana.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/library-kohana.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/views/minion/help/list.php" afterPath="$PROJECT_DIR$/modules/minion/views/minion/help/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/guide/auth/login.md" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/login.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/views/kohana/logo.php" afterPath="$PROJECT_DIR$/system/views/kohana/logo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/ltrim.php" afterPath="$PROJECT_DIR$/system/utf8/ltrim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/markdown.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/markdown.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/vendor/markdown/markdown.php" afterPath="$PROJECT_DIR$/modules/userguide/vendor/markdown/markdown.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/guide/auth/menu.md" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/guide/cache/menu.md" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/menu.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/menu.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/guide/minion/menu.md" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/menu.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/guide/unittest/menu.md" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/menu.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/menu.md" afterPath="$PROJECT_DIR$/system/guide/kohana/menu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/menu.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/api/menu.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/files/messages.md" afterPath="$PROJECT_DIR$/system/guide/kohana/files/messages.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/api/method.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/method.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/mimes.php" afterPath="$PROJECT_DIR$/system/config/mimes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/minion" afterPath="$PROJECT_DIR$/modules/minion/minion" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/miniond" afterPath="$PROJECT_DIR$/modules/minion/miniond" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/guide/unittest/mockobjects.md" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/mockobjects.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/models.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/models.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/mvc/models.md" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc/models.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/modules.md" afterPath="$PROJECT_DIR$/system/guide/kohana/modules.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/mvc.md" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/ord.php" afterPath="$PROJECT_DIR$/system/utf8/ord.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/page-toc.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/page-toc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/query/parameterized.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/query/parameterized.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/tests/phpunit.xml" afterPath="$PROJECT_DIR$/modules/cache/tests/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/print.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/profiling.md" afterPath="$PROJECT_DIR$/system/guide/kohana/profiling.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/query.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/query.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/relationships.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/relationships.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/requests.md" afterPath="$PROJECT_DIR$/system/guide/kohana/requests.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/guide/database/results.md" afterPath="$PROJECT_DIR$/modules/database/guide/database/results.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/routing.md" afterPath="$PROJECT_DIR$/system/guide/kohana/routing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/rtrim.php" afterPath="$PROJECT_DIR$/system/utf8/rtrim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/screen.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/config/session.php" afterPath="$PROJECT_DIR$/modules/database/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/session.php" afterPath="$PROJECT_DIR$/system/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/sessions.md" afterPath="$PROJECT_DIR$/system/guide/kohana/sessions.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/guide/minion/setup.md" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/setup.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/js/shBrushPhp.js" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/shBrushPhp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/shCore.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/shCore.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/js/shCore.js" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/shCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/shThemeDefault.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/shThemeDefault.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/css/shThemeKodoc.css" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/shThemeKodoc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tutorials/sharing-kohana.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/sharing-kohana.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/examples/simple.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/examples/simple.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/media/guide/js/sizzle.js" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/views/profiler/stats.php" afterPath="$PROJECT_DIR$/system/views/profiler/stats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/str_ireplace.php" afterPath="$PROJECT_DIR$/system/utf8/str_ireplace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/str_pad.php" afterPath="$PROJECT_DIR$/system/utf8/str_pad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/str_split.php" afterPath="$PROJECT_DIR$/system/utf8/str_split.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strcasecmp.php" afterPath="$PROJECT_DIR$/system/utf8/strcasecmp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strcspn.php" afterPath="$PROJECT_DIR$/system/utf8/strcspn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/stristr.php" afterPath="$PROJECT_DIR$/system/utf8/stristr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strlen.php" afterPath="$PROJECT_DIR$/system/utf8/strlen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strpos.php" afterPath="$PROJECT_DIR$/system/utf8/strpos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strrev.php" afterPath="$PROJECT_DIR$/system/utf8/strrev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strrpos.php" afterPath="$PROJECT_DIR$/system/utf8/strrpos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strspn.php" afterPath="$PROJECT_DIR$/system/utf8/strspn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strtolower.php" afterPath="$PROJECT_DIR$/system/utf8/strtolower.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/strtoupper.php" afterPath="$PROJECT_DIR$/system/utf8/strtoupper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/views/profiler/style.css" afterPath="$PROJECT_DIR$/system/views/profiler/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/substr.php" afterPath="$PROJECT_DIR$/system/utf8/substr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/substr_replace.php" afterPath="$PROJECT_DIR$/system/utf8/substr_replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/api/tags.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/views/minion/help/task.php" afterPath="$PROJECT_DIR$/modules/minion/views/minion/help/task.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/guide/minion/tasks.md" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/tasks.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/template.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/guide/unittest/testing.md" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/testing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/guide/unittest/testing_workflows.md" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/testing_workflows.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/tests.php" afterPath="$PROJECT_DIR$/modules/unittest/tests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/tips.md" afterPath="$PROJECT_DIR$/system/guide/kohana/tips.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/to_unicode.php" afterPath="$PROJECT_DIR$/system/utf8/to_unicode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/views/userguide/api/toc.php" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/toc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/transliterate_to_ascii.php" afterPath="$PROJECT_DIR$/system/utf8/transliterate_to_ascii.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/trim.php" afterPath="$PROJECT_DIR$/system/utf8/trim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/guide/unittest/troubleshooting.md" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/troubleshooting.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/ucfirst.php" afterPath="$PROJECT_DIR$/system/utf8/ucfirst.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/utf8/ucwords.php" afterPath="$PROJECT_DIR$/system/utf8/ucwords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/config/unittest.php" afterPath="$PROJECT_DIR$/modules/unittest/config/unittest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/upgrading.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/upgrading.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/upgrading.md" afterPath="$PROJECT_DIR$/system/guide/kohana/upgrading.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/examples/upload.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples/upload.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/guide/cache/usage.md" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/usage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/user_agents.php" afterPath="$PROJECT_DIR$/system/config/user_agents.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/auth/config/userguide.php" afterPath="$PROJECT_DIR$/modules/auth/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cache/config/userguide.php" afterPath="$PROJECT_DIR$/modules/cache/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codebench/config/userguide.php" afterPath="$PROJECT_DIR$/modules/codebench/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/database/config/userguide.php" afterPath="$PROJECT_DIR$/modules/database/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/config/userguide.php" afterPath="$PROJECT_DIR$/modules/image/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/config/userguide.php" afterPath="$PROJECT_DIR$/modules/minion/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/config/userguide.php" afterPath="$PROJECT_DIR$/modules/orm/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/unittest/config/userguide.php" afterPath="$PROJECT_DIR$/modules/unittest/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/config/userguide.php" afterPath="$PROJECT_DIR$/modules/userguide/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/messages/userguide.php" afterPath="$PROJECT_DIR$/modules/userguide/messages/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/config/userguide.php" afterPath="$PROJECT_DIR$/system/config/userguide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/guide/image/using.md" afterPath="$PROJECT_DIR$/modules/image/guide/image/using.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/using.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/using.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/validation.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/validation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/orm/guide/orm/examples/validation.md" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/examples/validation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/security/validation.md" afterPath="$PROJECT_DIR$/system/guide/kohana/security/validation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/messages/validation.php" afterPath="$PROJECT_DIR$/modules/minion/messages/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/minion/views/minion/error/validation.php" afterPath="$PROJECT_DIR$/modules/minion/views/minion/error/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/messages/validation.php" afterPath="$PROJECT_DIR$/system/messages/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/mvc/views.md" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc/views.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userguide/guide/userguide/works.md" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/works.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/guide/kohana/security/xss.md" afterPath="$PROJECT_DIR$/system/guide/kohana/security/xss.md" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,18 +694,8 @@
       <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/Controller/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8076923" vertical-offset="13" max-vertical-offset="595">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Extdirect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/ext-direct/classes/Controller/Extdirect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.230769" vertical-offset="1930" max-vertical-offset="5865">
-              <caret line="120" column="24" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="595">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,17 +711,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cache.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cache.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/cache/config/cache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="1479">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="187" max-vertical-offset="1479">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://C:/sandbox/backend/modules/database/classes/Config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,6 +756,7 @@
         <option value="$PROJECT_DIR$/modules/ext-direct/classes/Controller/Extdirect.php" />
         <option value="$PROJECT_DIR$/application/bootstrap.php" />
         <option value="$PROJECT_DIR$/modules/cache/config/cache.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -183,16 +798,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,50 +827,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ext-direct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ext-direct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +882,70 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -440,6 +1065,13 @@
       <option name="number" value="Default" />
       <updated>1427064771616</updated>
     </task>
+    <task id="LOCAL-00001" summary="- Ext.Direct getConfig caching mechanism added.&#10;- Cache module was excluded from repository, fixed.&#10;- Cache module  activated">
+      <created>1427105423157</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1427105423157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -502,16 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/Controller/Welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8076923" vertical-offset="13" max-vertical-offset="595">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ext-direct/classes/Controller/Extdirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.230769" vertical-offset="1930" max-vertical-offset="5865">
-          <caret line="120" column="24" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="595">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -526,8 +1150,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/cache/config/cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="1479">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="187" max-vertical-offset="1479">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/sandbox/backend/modules/database/classes/Config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
