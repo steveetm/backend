@@ -110,8 +110,20 @@ class Controller_Extdirect extends Controller {
                 !$this->isBlacklisted($method));
     }
 
-    private function getApi() {
+    private function getApi()
+    {
+
+        $cache = Cache::instance();
+
+        if (!$api = $cache->get('directapi')) {
+            return $this->generateApi();
+        } else {
+            return $api;
+        }
+    }
+    private function generateApi() {
         $classes = $this->config['classes'];
+        $cache = Cache::instance();
 
         $api = [];
         foreach ($classes as $class) {
@@ -150,7 +162,9 @@ class Controller_Extdirect extends Controller {
                 }
             }
         }
+
         $this->api = $api;
+        $cache->set('directapi',$this->api);
         return $this->api;
     }
 
