@@ -179,13 +179,11 @@ class Controller_Extdirect extends Controller {
 
             $action = $API[$request->action];
 
-            //   $this->doAroundCalls($a['before'], $request);
 
             $method = $action['methods'][$request->method];
             if (!$method) {
                 throw new Exception("Call to undefined method: $method on action $action");
             }
-            //    $this->doAroundCalls($mdef['before'], $cdata);
 
             $r = array(
                 'type' => 'rpc',
@@ -252,7 +250,6 @@ class Controller_Extdirect extends Controller {
             $r['data']['file'] = $e->getFile();
             $r['data']['errorId'] = $errorId;
             $r['data']['backtrace'] = 'not_supported';
-//getExceptionTraceAsString($e); // getBackTraceAsString();//$e->getBackTraceAsString($e);
             $r['data']['queriesRan'] = 'not_supported'; //Mysql::$queriesRan;
         }
 
@@ -263,22 +260,17 @@ class Controller_Extdirect extends Controller {
     public function action_getConfig() {
         header('Access-Control-Allow-Headers: x-requested-with, content-type');
         header('Access-Control-Allow-Credentials: true');
-        header('Access-Control-Allow-Origin: ' . 'http://127.0.0.1/frontend');
+        header('Access-Control-Allow-Origin: ' . '*');
         header('Content-Type: text/javascript');
-        // try {
+
         $jsCode = [
-        /**
-        * TODO BIG nope, URL::?
-        *
-        */
-            "url" => 'http://steveetm.hu/backend/ext-direct/router',
+
+            "url" => $this->config['url'],
             "type" => "remoting",
-            "timeout" => 500,
+            "timeout" => 3000,
             "actions" => $this->convertApi($this->getApi())
         ];
-        //  } catch (Exception $ex) {
-        //   $jsCode = 'console.error("Failed to load ExtDirect on server-side");';
-        //   }
+
 
         $this->response->body('Ext.ns("Ext.app"); Ext.app.REMOTING_API =' . json_encode($jsCode));
     }
@@ -291,7 +283,7 @@ class Controller_Extdirect extends Controller {
         header("Access-Control-Allow-Headers: X-Requested-With,X-Prototype-Version,Content-Type,Cache-Control,Pragma,Origin,Content-Length");
         header('Access-Control-Allow-Credentials: true');
 
-        header('Access-Control-Allow-Origin: http://127.0.0.1/frontend');
+        header('Access-Control-Allow-Origin: *');
         if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
             return;
         }

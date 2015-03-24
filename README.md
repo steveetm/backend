@@ -1,4 +1,9 @@
-# Kohana PHP Framework
+# Brief documentation of Isle of Wright Travel Connections Mobile App
+
+## Initializing of the application
+
+When the application starts, it tries to download the latest data fron the backend. This functionality can be found in the {@link TouchApp.app.Application#preCacheStore} function.
+
 
 [Kohana](http://kohanaframework.org/) is an elegant, open source, and object oriented HMVC framework built using PHP5, by a team of volunteers. It aims to be swift, secure, and small.
 
