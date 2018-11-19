@@ -1,4 +1,4 @@
-# Brief documentation of Isle of Wright Travel Connections Mobile App
+# Brief documentation of Isle of Wight Travel Connections Mobile App
 
 ## Initializing of the application
 
